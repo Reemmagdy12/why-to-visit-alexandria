@@ -1,0 +1,68 @@
+/* Adjusting the elements of the page to be border-box model instead of content-box */
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(184, 204, 222,0.3);
+}
+header{
+    background-color: rgba(219, 171, 112);
+    padding: 1.5rem;
+}
+a{
+    margin: 2rem;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(81, 103, 124);
+}
+/* Making the links responsive when hovering upon them */
+a:hover{
+    background-color: rgba(248, 189, 237, 0.3);
+    text-decoration: underline;
+}
+img{
+    width:25%;
+    margin: 1.5rem;
+    position: relative;
+}
+/* Making the images responsive when hovering upon them */
+img:hover{
+    top: 0.5rem;
+    opacity: 0.5 ;
+}
+header p{
+    text-indent: 1rem;
+}
+/* Making the first letter a bit special */
+header p::first-letter{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    margin:1rem;
+}
+section{
+    margin-bottom: 1.3rem;
+}
+/* Make the quotes stand out */
+blockquote{
+    font-weight: bold;
+    font-style: italic;
+}
+aside{
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+/* Styling the footer */
+footer{
+    background-color: black;
+    color: white;
+    padding:1rem;
+}
